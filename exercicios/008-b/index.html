@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 009</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <br>
+    <h2>Código Fonte e Pré Formatação</h2>
+        <p>O comando <code>code</code> faz com que o conteúdo tenha uma formatação visualmente mais intuitiva <code>get.element(daaaaaad)</code>. Uma observação é que o tag CODE não indenta código, fica tudo bagunçado. Para isso temos que colocar o código entre a tag PRE. Confira abaixo um exemplo:</p>
+        <br>
+
+    <pre>
+        <code>
+            Algoritmo "PRATICA 1"
+            //PREENCHER UMA MATRIZ 3X2 COM VALORES NO TECLADO
+            
+            Var
+            
+            m : vetor [1..3, 1..2] de inteiro
+            l,c : inteiro
+            
+            
+            Inicio
+            
+            escreval ("Vamos fazer uma matriz de 3 linhas e 2 colunas.")
+            escreval ("Preencha conforme solicitado.")
+            
+            para l := 1 ate 3 faca
+                 para c := 1 ate 2 faca
+                     escreva ("Digite o número que vai na linha ", l, " e na coluna ", c, ": ")
+                     leia (m[l,c])
+                 fimpara
+            
+            fimpara
+            
+            para l := 1 ate 3 faca
+                para c := 1 ate 2 faca
+                    se (m[l,c] % 2 = 0)  entao
+                       escreval ("PAR ",m[l,c])
+                    senao
+                       escreval ("IMPAR ", m[l,c])
+                    fimse
+                fimpara
+            fimpara
+            
+            Fimalgoritmo
+        </code>
+    </pre>
+    <br>
+    <h2>Citações</h2>
+        <p>Como dizia o pai de um amigo <q>O computador é um burro muito rápido</q>. Utilizando o Q de QUOTE cria-se sentido para o HTML</p>
+    <br>
+    <h2>Citações Completas</h2>
+        <p>A diferença é que o Quote acima cria pequenas citações, já o Blockquote abaixo cria citações maiores, em bloco. Além de poder Citar de onde tirou o conteúdo. Visualmente não faz diferença alguma ter ou não ter o link, mas para os mecanismos de busca SEO, ajuda a entender que o meu texto está referenciando outro local.
+            
+        <blockquote cite="https://rockcontent.com/br/talent-blog/referencia-bibliografica-abnt/">As referências ABNT exigem a indicação dos autores, título, subtítulo, edição, local, editora e data de publicação. Para fazer a referência de um livro conforme a ABNT, deve-se escrever: SOBRENOME, Nome Abreviado. Título: subtítulo. Edição. Local de publicação: Editora, data de publicação da obra.</blockquote></p>
+    <br>
+    <h2>Abreviações</h2>
+        <p>O significado de <abbr title="HyperText Markup Language">HTML</abbr> está dentro da abreviação ao lado./p>
+    <br>
+    <h2>Texto Invertido</h2>
+        <p><bdo dir="rtl">O bagulho ficou sinistro agora.</bdo></p>
+    
+
+</body>
+</html>
