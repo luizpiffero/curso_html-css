@@ -1,6 +1,10 @@
 # curso_html-css
- Curso de HTML 5 e CSS 3 - Curso em Vídeo
 
-Iniciando o Curso de HTML, após algumas horas de aulas teóricas finalmente chegamos a aula prática. Postarei aqui o avanço:
+## Curso de HTML 5 e CSS 3 - Curso em Vídeo (5 módulos)
 
-[x] Hello World em HTML!
+[x] 1. Primeiros passos HTML + CSS (40h) - Conceitos básicos, preparação de ambiente, semântica HTML5, textos, titulos, ligações, multimídias.
+[] 2. Deixando as coisas mais bonitas (40h) - Fundamentos do design, psicologia das cores, tipografia, elementos CSS, modelo de caixas, wireframe, resposividade.
+[] 3. Colocando um protótipo no ar (40h) - Versionamento de software, hospedagem de sites estáticos, tabelas.
+[] 4. Aprofundando os conhecimentos (40h) - Quadros em linha, formulários, medias queries, mobile first.
+[] 5. Novas técnologias (40h) - Flexbox, Grid Layout, projeto final.
+
